@@ -3,9 +3,9 @@ import "./SlideHero.css"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import bannerHero1 from "../../image/img/banner_hero1.jpg";
-import bannerHero2 from "../../image/img/banner_hero2.jpg";
-import bannerHero3 from "../../image/img/banner_hero3.jpg";
+import bannerHero1 from "../../image/img/banner_Hero1.jpg";
+import bannerHero2 from "../../image/img/banner_Hero2.jpg";
+import bannerHero3 from "../../image/img/banner_Hero3.jpg";
 export const SliderHero = () => {
   const settings = {
     dots: true,
