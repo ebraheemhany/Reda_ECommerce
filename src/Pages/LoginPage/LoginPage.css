@@ -1,0 +1,72 @@
+:root {
+--main_color :#0090f0;
+--p_color :rgba(46, 45, 45, 0.712);
+--white_color:#fff;
+--color_heading:#253237;
+}
+.login_page {
+margin-top: 200px;
+}
+.login_page .login_content {
+/* display: flex;
+align-items: center;
+justify-content: center; */
+margin: auto;
+width: 40%;
+height: 300px;
+background-color:#003768de;
+border-radius: 10px;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.login_page .login_content h1 {
+text-align: center;
+color: var(--white_color);
+margin: 10px 0 ;
+}
+.login_page .login_content form {
+display: flex;
+flex-direction: column;
+
+}
+.login_page .login_content form input {
+width: 80%;
+margin: 10px auto;
+padding: 8px ;
+background-color: #f5eaeac7;
+
+border-radius: 5px;
+
+
+}
+.login_page .login_content form button {
+width: 80%;
+margin: 10px auto;
+background-color: var(--main_color);
+display: flex;
+justify-content: center;
+
+}
+.login_page .login_content form p {
+text-align: center;
+margin-top: 20px;
+color: var(--white_color);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
